@@ -1,0 +1,55 @@
+.b-login{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.log{
+    
+    width: 20%;
+    margin: auto;
+ 
+    overflow: hidden;
+}
+.inp{
+    height: 40px;
+  
+}
+.form-g{
+    margin-top: 10px;
+    justify-self: center;
+}
+.text-lo{
+    margin-top: 5px;
+    color: rgb(59, 59, 59);
+    font-weight: bold;
+    text-align: center;
+}
+.text-lo1{
+    color: rgb(66, 65, 65);
+}
+.text-lo2{
+    color: rgb(66, 65, 65);
+    font-size: medium;
+}
+.image-style1{
+    margin-right: 5px;
+    height: 30px;
+    width: auto;
+}
+
+.register-bt{
+    color: rgb(20, 121, 236);
+    font-size: 17px;
+}
+.text-register{
+    font-size: 17px;
+    font-weight: 400;
+    color: rgb(59, 59, 59);
+    margin-right: 5px;
+}
+.register-bt:hover{
+    color: rgb(241, 97, 1);
+    cursor: pointer;
+}

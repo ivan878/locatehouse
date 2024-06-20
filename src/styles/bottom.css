@@ -1,0 +1,100 @@
+.bottom{
+    width: 100%;
+    height: 300px;
+    background-color: black;
+    margin-top: 8%;
+}
+.content-bottom{
+    width: 80%;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.social{
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items:flex-start;
+    flex-direction: column;
+    overflow: hidden;  
+}
+.row-social{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    overflow: hidden;
+}
+.media-social{
+    height: 35px;
+    width: 35px;
+    background-color: red;
+    border-radius: 50%;
+}
+.contact-form{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.text-btm{
+    color: white;
+
+}
+.icon-inf{
+    width: 20px;
+    height: 20px;
+    background-color: rgb(214, 110, 13);
+}
+.row-info{
+    display: flex;
+    justify-items: center;
+    align-items: center;
+}
+.text-btm2{
+    font-size: medium;
+    color: white;
+}
+.mgl{
+    margin-left: 5px;
+}
+.download-btn{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    justify-content: flex-start;
+}
+.inf-bottom{
+    height: 50px;
+    background-color: rgb(14, 14, 14);
+    justify-content: center;
+    display: block;
+    width: 100%;
+    text-align: center;
+}
+.btn-text-size{
+    font-size: 18px;
+}
+.btn-download{
+    padding: 10px;
+    height: 35px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border: 1px solid rgb(228, 105, 5);
+    border-radius: 15px;
+}
+.btn-download:hover{
+    box-shadow: 2px 2px 1px 1px rgb(228, 105, 5);
+    background-color: rgb(233, 91, 9);
+    cursor: pointer;
+    color: white;
+}
+.text-copy{
+    font-size: medium;
+    color: rgb(194, 183, 183);
+}

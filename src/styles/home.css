@@ -1,0 +1,158 @@
+.barner{
+    height: 65vh;
+    width: 100%;
+    background-color: rgb(223, 28, 28);
+    background-size: cover; /* S'assurer que l'image couvre toute la div */
+    background-position: center; /* Centrer l'image */
+    background-repeat: no-repeat; /* Empêcher la répétition de l'image */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-shadow: 1px 1px 2px black;
+    overflow: hidden;
+}
+
+.alt-c{
+    height: 65vh;
+    background-color: rgba(0, 0, 0, 0.774);
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+   
+}
+.center-alt{
+    width: 40%;
+    margin: auto;
+    height: auto;
+    align-items:flex-start;
+}
+/* pour la partie des tab d'image */
+.tab{
+    width: 80%;
+    margin: auto;
+}
+/* modification du tabs antd
+} */
+:where(.css-dev-only-do-not-override-zg0ahe).ant-tabs .ant-tabs-tab.ant-tabs-tab-active .ant-tabs-tab-btn {
+    color: #ffffff;
+    text-shadow: 0 0 0.25px currentcolor;
+    font-weight: 500;
+}
+:where(.css-dev-only-do-not-override-zg0ahe).ant-tabs .ant-tabs-tab:hover {
+    color: #ff6000!important;
+}
+:where(.css-dev-only-do-not-override-zg0ahe).ant-tabs-card >.ant-tabs-nav .ant-tabs-tab-active, :where(.css-dev-only-do-not-override-zg0ahe).ant-tabs-card >div>.ant-tabs-nav .ant-tabs-tab-active {
+    color: #ffffff;
+    background: #ff6000!important;
+}
+
+/* partie de la tabs pour le design */
+.bloc1{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+}
+.deco{
+    margin-top: 50px;
+height: 8px;
+width: 100px;
+border-radius: 8px;
+background-color: rgb(241, 97, 1);
+
+}
+.deco-text{
+    color: rgb(59, 59, 59);
+    text-align: center;
+}
+.tabstyle{
+    background-color: red;
+}
+.cart{
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+    height: 300px;
+}
+.car{
+    height: 400px;
+    background-color: rgba(255, 166, 0, 0.068);
+    margin: auto;
+    width: 50%;
+    display: flex!important;
+    justify-content: center!important;
+    align-items: center!important;
+}
+.car-content{
+    display: flex;
+    flex-direction: row;
+}
+.text-ap{
+    color: white;
+    text-align: center;    
+}
+.apropos{
+    width: 100%;
+}
+.newsletter{
+    width: 80%;
+    margin: auto;
+    background-color: #ff6200;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    border-radius: 20px;
+    margin-top: 30px;
+}
+.inp{
+    width: 50%;
+    margin: auto;
+}
+.padding{
+    padding: 15px;
+}
+:where(.css-dev-only-do-not-override-zg0ahe).ant-btn-primary {
+    color: #fff;
+    background: #000000;
+    box-shadow: 0 2px 0 rgba(114, 69, 2, 0.1);
+}
+:where(.css-dev-only-do-not-override-zg0ahe).ant-btn-primary:hover {
+    color: #fff;
+    background: #b14b08;
+    box-shadow: 0 2px 0 rgba(114, 69, 2, 0.1);
+}
+.row{
+    display: flex;
+    flex-direction: row;
+}
+.w-space{
+    width: 100%;
+}
+
+.card-image {
+    width: 50%;
+    height: auto;
+}
+.card-button {
+    padding: 10px 20px;
+    border: none;
+    background-color: #007BFF;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+    transition: background-color 0.3s ease;
+}
+.card-button:hover {
+    background-color: #0056b3;
+}

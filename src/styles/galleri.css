@@ -1,0 +1,61 @@
+.body-gal{
+    position: relative;
+    max-width: 90%;
+    height: auto;
+    margin: auto;
+    padding: 10px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: 40px;
+    overflow: hidden;
+    overflow-y: auto; 
+}
+.ct{
+    height: 150px;
+    width: 250px;
+    background-color: rgba(248, 135, 30, 0.479);
+    margin: 0 auto; /* Center the container */
+    overflow: hidden;
+
+}
+.cart-bloc1{
+    display: flex;
+    flex-direction: column; 
+}
+.inf-ch{
+    display: flex;
+    justify-content: space-between;
+}
+.text-bloc1{
+    margin-top: 1px;
+    border-radius: 15px;
+    color: rgb(88, 87, 87);
+    padding: 5px;
+    background-color: rgba(255, 68, 0, 0.151);
+}
+.mgt{
+    margin-top: 15px;
+}
+.text-2{
+    font-weight: w200;
+    color: rgb(175 165 165);
+    font-size:  20px;
+}
+.text-price{
+    font-size: 20px;
+    font-weight: bold;
+    color: #ff6000!important;
+}
+.text-month{
+    font-weight: bold;
+    color: rgb(54, 54, 54);
+}
+.mgl{
+    margin-left: 5px;
+}
+.responsive-image{
+    width: 100%;
+    height: auto;
+    object-fit: cover; /* Ensures the image covers the container without stretching */
+    display: block; 
+}
