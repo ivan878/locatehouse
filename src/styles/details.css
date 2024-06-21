@@ -1,5 +1,10 @@
 .body-det{
     width: 80%;
     margin: auto;
-    
+
+}
+.content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }

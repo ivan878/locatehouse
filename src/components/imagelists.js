@@ -6,6 +6,8 @@ import images5 from '../assets/images5.png';
 import images6 from '../assets/images6.png';
 import images7 from '../assets/images7.png';
 import images8 from '../assets/images8.png';
+import background from '../assets/barne.png';
+import '../styles/home.css';
 const images = [
     { src: images1, alt: 'Image 1' },
   { src: images2, alt: 'Image 2' },
@@ -17,3 +19,16 @@ const images = [
   { src: images8, alt: 'Image 8' },
 ];
 export default images;
+
+export const Barner = ({text})=> {
+  return (
+    <div className='barner'
+    style={{ backgroundImage: `url(${background})` }}>
+       <div className='alt-c'>
+           <div className='center-alt'>
+               <h1> {text} </h1>
+           </div>
+       </div>
+   </div>
+  );
+}

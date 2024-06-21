@@ -79,22 +79,19 @@ background-color: rgb(241, 97, 1);
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    width: 100%;
+    width: 50%;
     height: 300px;
 }
 .car{
     height: 400px;
     background-color: rgba(255, 166, 0, 0.068);
     margin: auto;
-    width: 50%;
+    width: 80%;
     display: flex!important;
     justify-content: center!important;
     align-items: center!important;
 }
-.car-content{
-    display: flex;
-    flex-direction: row;
-}
+
 .text-ap{
     color: white;
     text-align: center;    

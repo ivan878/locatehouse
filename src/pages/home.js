@@ -70,19 +70,34 @@ function Home () {
         <Carousel
         autoplay={true}
         dots={false}
+        autoplaySpeed={2000}
         className='car' afterChange={onChange}>
-        <div className='car-content'>
+
+    
+          <div>
+          <div className='car-content'>
         <div class="cart">
-              <div></div><img src={cardimage} alt="Card Image" class="card-image" />
+              <div></div><img src={cardimage} alt="Card-Image" class="card-image" />
               <div class="card-content">
                   <h2 class="card-title">Card Title</h2>
                   <p class="card-description">This is a description of the card. It can be a brief summary of the content.</p>
                   <button class="card-button">Read More</button>
               </div>
           </div>
+          
 
          
         </div>
+        </div>
+      <div>
+        <h3 >2</h3>
+      </div>
+      <div>
+        <h3 style={contentStyle}>3</h3>
+      </div>
+      <div>
+        <h3 style={contentStyle}>4</h3>
+      </div>
         
         
       </Carousel>
