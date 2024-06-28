@@ -10,7 +10,7 @@ export function Bottombar ()  {
         <div className='content-bottom'>
           <div className='social'>
             <div> <img src={logoImage} alt="Logo Black-Comics" className="image-style" /></div>
-            <text className='text-btm'>HOMELOCATE</text>
+            <span className='text-btm'>HOMELOCATE</span>
             <div className='row-social'>
                   <div className='media-social'></div>
                   <div className='media-social'></div>

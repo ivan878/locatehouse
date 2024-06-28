@@ -7,7 +7,7 @@ import logo from '../assets/logoh.png';
 export const Login = () => {
   return (
     <div className='b-login'>
-      <form method='post'>
+      
         <div className='log'>
             <div> <img className='image-style' src={logo} alt="Image"></img> </div>
              <h2 className='text-lo1'>Hotel</h2>
@@ -23,7 +23,7 @@ export const Login = () => {
                 <span className='register-bt'>s'inscrire</span>
             </div>
         </div>
-        </form>
+       
     </div>
   )
 }

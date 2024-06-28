@@ -6,8 +6,17 @@ import { Button3 } from '../components/button';
 import {Gallerie} from '../components/gallerie';
 import { Tabs ,Carousel,Input,Button,Space } from 'antd';
 import { Bottombar } from '../components/bottombar';
+import Slider from 'react-slick';
+import 'slick-carousel/slick/slick.css';
+import 'slick-carousel/slick/slick-theme.css';
 import cardimage from '../assets/images3.png';
-
+import images2 from '../assets/images2.png';
+import images3 from '../assets/images3.png';
+import images4 from '../assets/images4.png';
+import images5 from '../assets/images5.png';
+import images6 from '../assets/images6.png';
+import images7 from '../assets/images7.png';
+import images8 from '../assets/images8.png';
 
 const contentStyle = {
   margin: 0,
@@ -18,6 +27,7 @@ const contentStyle = {
   background: '#364d79',
 };
 function Home () {
+  
     const onChange = (key) => {
         console.log(key);
       };
@@ -38,6 +48,16 @@ function Home () {
           children: <Gallerie/>,
         },
       ];
+      const settings = {
+        dots: true,
+        infinite: true,
+        speed: 1000,
+        slidesToShow: 3,
+        slidesToScroll: 1,
+        autoplay: true, // Ajoute l'autoplay
+        autoplaySpeed: 3000,
+      };
+      const images   = [images2,images3,images4,images5,images6,images7,images8];
     return (<div className='home'>
         <Header/>
     
@@ -64,9 +84,29 @@ function Home () {
                  type="card" items={items} 
                  onChange={onChange} />
         </div>
+        <div className='block-2-av '>
+
+        </div>
        
-          <div className='apropos mgt'>
-       
+          <div className='apropos'>
+          <Slider {...settings} className='car'  >
+        {images.map((image, index) => (
+          // <div key={index}>
+          //   <img src={image} alt={`Slide ${index}`} style={{ width: '100%', height: 'auto' }} />
+          // </div>
+          <div className='pding'>
+          <div className="cart" key={index}>
+          <div></div><img src={image} alt={`Slide ${index}`} className="card-image" />
+          {/* <div className="card-content">
+              <h2 className="card-title">Card Title</h2>
+              <p className="card-description">This is a description of the card. It can be a brief summary of the content.</p>
+              <button className="card-button">Read More</button>
+          </div> */}
+      </div>
+      </div>
+        ))}
+      </Slider>
+{/*        
         <Carousel
         autoplay={true}
         dots={false}
@@ -100,7 +140,7 @@ function Home () {
       </div>
         
         
-      </Carousel>
+      </Carousel> */}
           {/* <h3 className='text-ap'>A PROPOS</h3>
             <span className='text-ap'>lorems dans l'arborescence DOM. Dans le même temps, le rendu du canevas interdit le style CSS, vous devrez donc utiliser les options intégrées pour cela, ou créer un plugin ou un type de graphique personnalisé pour tout restituer à votre guise.
 Performance</span> */}
@@ -112,7 +152,7 @@ Performance</span> */}
         </div>
         <div className='newsletter'>
         <h5 className='text-ap padding'>NEWSLETTER</h5>
-          <div className='inp'>
+          <div className='inpt'>
                 <Space.Compact
             style={{
               width: '100%',
@@ -124,7 +164,7 @@ Performance</span> */}
           </div>
         </div>
         <div>
-               <Bottombar/>
+             <Bottombar/>
         </div>
      
     </div>

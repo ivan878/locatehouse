@@ -19,8 +19,8 @@ export const Gallerie = () => {
             {/* {
                 Array.from({length: img}).map((tab,index)=> ( */}
                  {tab.map((imag, index) => (
-                      <div className='cart-bloc1'>
-                      <div className='ct'>  <img className='responsive-image' src={imag} alt="Image"></img> </div>
+                      <div className='cart-bloc1' key={index}>
+                      <div className='ct'>  <img className='responsive-image' src={imag} alt={`image ${index}`}></img> </div>
                       <div className='inf-ch row'>
                          <div><h4 className='text-bloc1'>capacité</h4></div>
                          <div><span>🔶🔶🔶🔶 {index} </span></div>
@@ -34,9 +34,6 @@ export const Gallerie = () => {
                       </div>
                  </div>
     ))}
-                  
-                {/* ))
-            } */}
        
     </div>
   )
